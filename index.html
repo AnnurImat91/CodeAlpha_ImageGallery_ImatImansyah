@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Gallery Image</title>
+        <meta name="description" content>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel="stylesheet" href="font/fonts.css">
+        <!-- normalize css -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/utility.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class="navbar">
+            <div class="container flex">
+                <a href="index.html" class="site-brand">
+                    <img src="images/logo/codealphalogo.png" width="300px" alt>
+                </a>
+
+                <button type="button" id="navbar-show-btn" class="flex">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div id="navbar-collapse">
+                    <button type="button" id="navbar-close-btn" class="flex">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#place" class="nav-link">Place</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#video" class="nav-link">Video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#gallery" class="nav-link">Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class="flex">
+            <div class="container">
+                <div class="header-title">
+                    <h1>Art Gallery</h1>
+                    <p>see the beauty of the world of imagination by using feelings and thoughts that are clear and peaceful.</p>
+                </div>
+
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- featured section -->
+        <section id="place" class="py-4">
+            <div class="container">
+                <div class="title-wrap">
+                    <span class="sm-title">know about some places before your
+                        visit</span>
+                    <h2 class="lg-title">museum</h2>
+                </div>
+
+                <div class="featured-row">
+                    <div class="featured-item my-2 shadow">
+                        <img src="images/paris-france.jpg"
+                            alt="featured place">
+                        <div class="featured-item-content">
+                            <span>
+                                <i class="fas fa-map-marker-alt"></i>
+                                Paris, France
+                            </span>
+                            <div>
+                                <p class="text">Le Louvre</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="featured-item my-2 shadow">
+                        <img src="images/coupenhagen-denmark.jpg"
+                            alt="featured place">
+                        <div class="featured-item-content">
+                            <span>
+                                <i class="fas fa-map-marker-alt"></i>
+                                Copenhagen, Denmark
+                            </span>
+                            <div>
+                                <p class="text">Danish National Museum Copenhagen Archeology History</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="featured-item my-2 shadow">
+                        <img src="images/jakarta-indonesia.webp"
+                            alt="featured place">
+                        <div class="featured-item-content">
+                            <span>
+                                <i class="fas fa-map-marker-alt"></i>
+                                Jakarta, Indonesia
+                            </span>
+                            <div>
+                                <p class="text"> Museum Nasional </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="featured-item my-2 shadow">
+                        <img src="images/london-england.jpg"
+                            alt="featured place">
+                        <div class="featured-item-content">
+                            <span>
+                                <i class="fas fa-map-marker-alt"></i>
+                                London, England
+                            </span>
+                            <div>
+                                <p class="text">Natural History Museum</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="featured-item my-2 shadow">
+                        <img src="images/sydney-australia.webp"
+                            alt="featured place">
+                        <div class="featured-item-content">
+                            <span>
+                                <i class="fas fa-map-marker-alt"></i>
+                                Sydney, Australia
+                            </span>
+                            <div>
+                                <p class="text">Australian Museum </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="featured-item my-2 shadow">
+                        <img src="images/kyoto-japanwebp.webp"
+                            alt="featured place">
+                        <div class="featured-item-content">
+                            <span>
+                                <i class="fas fa-map-marker-alt"></i>
+                                Kyoto, Japan
+                            </span>
+                            <div>
+                                <p class="text">Japan Oni Cultural Museum</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of featured section -->
+
+        <!-- video section -->
+        <section id="video">
+            <div class="video-wrapper flex">
+                <video loop>
+                    <source src="videos/video-section.mp4" type="video/mp4">
+                </video>
+                <button type="button" id="play-btn">
+                    <i class="fas fa-play"></i>
+                </button>
+            </div>
+        </section>
+        <!-- end of video section -->
+
+        <!-- gallery section -->
+        <section id="gallery" class="py-4">
+            <div class="container">
+                <div class="title-wrap">
+                    <span class="sm-title">The</span>
+                    <h2 class="lg-title">Gallery</h2>
+                </div>
+
+                <div id="gallery main" class="py-4">
+                    <div class="container">
+                        <div class="gallery-row">
+                            <div class="gallery-item shadow">
+                                <img src="images/gallery-1.jpg"
+                                    alt="gallery img">
+                                <span class="zoom-icon">
+                                    <i class="fas fa-search-plus"></i>
+                                </span>
+                            </div>
+                            <div class="gallery-item shadow">
+                                <img src="images/gallery-2.jpg"
+                                    alt="gallery img">
+                                <span class="zoom-icon">
+                                    <i class="fas fa-search-plus"></i>
+                                </span>
+                            </div>
+                            <div class="gallery-item shadow">
+                                <img src="images/gallery-3.jpg"
+                                    alt="gallery img">
+                                <span class="zoom-icon">
+                                    <i class="fas fa-search-plus"></i>
+                                </span>
+                            </div>
+                            <div class="gallery-item shadow">
+                                <img src="images/gallery-4.jpg"
+                                    alt="gallery img">
+                                <span class="zoom-icon">
+                                    <i class="fas fa-search-plus"></i>
+                                </span>
+                            </div>
+                            <div class="gallery-item shadow">
+                                <img src="images/gallery-5.jpg"
+                                    alt="gallery img">
+                                <span class="zoom-icon">
+                                    <i class="fas fa-search-plus"></i>
+                                </span>
+                            </div>
+                            <div class="gallery-item shadow">
+                                <img src="images/gallery-6.jpg"
+                                    alt="gallery img">
+                                <span class="zoom-icon">
+                                    <i class="fas fa-search-plus"></i>
+                                </span>
+                            </div>
+                            <div class="gallery-item shadow">
+                                <img src="images/gallery-7.jpg"
+                                    alt="gallery img">
+                                <span class="zoom-icon">
+                                    <i class="fas fa-search-plus"></i>
+                                </span>
+                            </div>
+                            <div class="gallery-item shadow">
+                                <img src="images/gallery-8.jpg"
+                                    alt="gallery img">
+                                <span class="zoom-icon">
+                                    <i class="fas fa-search-plus"></i>
+                                </span>
+                            </div>
+                            <div class="gallery-item shadow">
+                                <img src="images/gallery-9.jpg"
+                                    alt="gallery img">
+                                <span class="zoom-icon">
+                                    <i class="fas fa-search-plus"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- img modal -->
+                <div id="img-modal-box">
+                    <div id="img-modal">
+                        <button type="button" id="modal-close-btn" class="flex">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <button type="button" id="prev-btn" class="flex">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button type="button" id="next-btn" class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <img src="images/van gogh.jpg">
+                    </div>
+                </div>
+                <!-- end of img modal -->
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="py-3 px-3">
+            <div class="container footer-row">
+
+                <div class="footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src="js/script.js"></script>
+        <script>
+            // play/pause video
+            let video = document.querySelector('.video-wrapper video');
+            document.getElementById('play-btn').addEventListener('click', () => {
+                if(video.paused){
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+         <script>
+            // image modal
+            const allGalleryItem = document.querySelectorAll('.gallery-item');
+            const imgModalDiv = document.getElementById('img-modal-box');
+            const modalCloseBtn = document.getElementById('modal-close-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const prevBtn = document.getElementById('prev-btn');
+            let imgIndex = 0;
+
+            allGalleryItem.forEach((galleryItem) => {
+                galleryItem.addEventListener('click', () => {
+                    imgModalDiv.style.display = "block";
+                    let imgSrc = galleryItem.querySelector('img').src;
+                    imgIndex = parseInt(imgSrc.split("-")[1].substring(0, 1));
+                    showImageContent(imgIndex);
+                })
+            });
+
+            // next click
+            nextBtn.addEventListener('click', () => {
+                imgIndex++;
+                if(imgIndex > allGalleryItem.length){
+                    imgIndex = 1;
+                }
+                showImageContent(imgIndex);
+            });
+
+            // previous click
+            prevBtn.addEventListener('click', () => {
+                imgIndex--;
+                if(imgIndex <= 0){
+                    imgIndex = allGalleryItem.length;
+                }
+                showImageContent(imgIndex);
+            });
+
+            function showImageContent(index){
+                imgModalDiv.querySelector('#img-modal img').src = `images/gallery-${index}.jpg`;
+            }
+
+            modalCloseBtn.addEventListener('click', () => {
+                imgModalDiv.style.display = "none";
+            })
+        </script>
+    </body>
+</html>
